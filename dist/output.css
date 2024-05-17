@@ -554,6 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
 .bg-red-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
@@ -562,4 +570,38 @@ video {
 .bg-green-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[A18A4D\] {
+  color: A18A4D;
+}
+
+.text-\[r\] {
+  color: r;
+}
+
+.text-\[rgb\] {
+  color: rgb;
+}
+
+.text-\[rgb\(\)\] {
+  color: rgb();
+}
+
+.text-\[rgb\(161\2c 138\2c 77\)\] {
+  --tw-text-opacity: 1;
+  color: rgb(161 138 77 / var(--tw-text-opacity));
 }
