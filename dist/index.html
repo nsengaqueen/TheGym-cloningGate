@@ -14,7 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-<body>
+<body class="w-full">
 <nav class="flex bg-[rgb(51,51,51)] justify-around p-3">
   <div>
  <select name="" id="" class="bg-[rgb(51,51,51)] text-white font-semibold ">
@@ -45,14 +45,14 @@
     <p class="text-[17.6px] font-bold">RESEARCH</p>
     <P class="text-[17.6px] font-bold">INNOVATE</P>
     <p class="text-[17.6px] font-bold">EXPLORE</p>
-    <input type="search" placeholder="Search" class=" border-0 border-b-2 border-black bg-[rgb(213,213,213)] text-black ">
-    <i class="relative fa-solid fa-magnifying-glass right-36 top-2"></i>
+    <button class=" w-40 pr-20 border-b-2 border-black bg-[rgb(213,213,213)] text-black ">Search</button>
+    <i class="relative fa-solid fa-magnifying-glass md:right-20 md:mt-2"></i>
     </div>
   
   </header>
 <section id="1">
   
- <div class=" bg-cover bg-center w-full text-black  py-20 h-[800px] px-16"
+ <div class=" bg-cover bg-center text-black  py-20 h-[800px] px-16"
    style="background-image: url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg');">
    
   <p class="bg-[rgb(62,57,59)] bg-opacity-75 w-fit mt-[20%] p-8 ml-[5%]">
@@ -88,7 +88,7 @@
 
 </section> 
 <section id="4">
-  <div class="flex justify-center gap-10 ">
+  <div class="flex justify-center gap-10 mb-32 md:px-10">
  <div>
     <p class="text-[28.8px]  font-semibold"> Which course are you looking for?</p>
     <select name="" id="" class="border border-[#333] border-solid inline-block p-4 w-full  text-[19.2px]">
@@ -110,13 +110,13 @@
   </div>
 
 </section>
-<section id="5" class="py-32 bg-[rgb(242,242,242)]">
+<section id="5" class="py-32 md:py-10 bg-[rgb(242,242,242)]">
   <div class="pl-32">
 <p class="text-[52.1px] text-[rgb(161,138,77)]  py-10">News </p>
 
 </div>
-<div class="flex gap-10 px-32">
-  <div class="bg-white p-5">
+<div class="flex gap-10 px-32 md:px-10 ">
+  <div class="bg-white pt-5 ">
     <p class="text-[19.2px] text-[rgb(161,138,77)]">Campus e Communidade</p>
     <p class="pb-40 text-[22.4px] font-semibold">Que comece a corrida a 
       <br>Universidade junior 2023
@@ -124,7 +124,7 @@
     <div>17 May 2024</div>
     <div class=""><img src="https://noticias.up.pt/wp-content/uploads/2024/05/universidade-junior-2022_01.jpg" alt="" ></div>
   </div>
-  <div class="bg-white p-5">
+  <div class="bg-white pt-5 ">
     <p class="text-[19.2px] text-[rgb(161,138,77)]">Campus e Communidade</p>
     <p class="pb-40 text-[22.4px] font-semibold">Que comece a corrida a 
       <br>Universidade junior 2023
@@ -132,7 +132,7 @@
     <div>17 May 2024</div>
     <div><img src="https://noticias.up.pt/wp-content/uploads/2024/04/upac-fc6-fcup_01.jpg" alt=""></div>
   </div>
-  <div class=" bg-white p-5">
+  <div class=" bg-white pt-5 ">
     <p class="text-[19.2px] text-[rgb(161,138,77)] ">Campus e Communidade</p>
     <p class="pb-40 text-[22.4px] font-semibold">Que comece a corrida a 
       <br>Universidade junior 2023
@@ -145,10 +145,12 @@
 
 </section>
 <section id="6">
-  <div class="flex justify-center pt-32 ">
-<div class="text-6xl text-[rgb(161,138,77)]">
+  <div class="flex justify-center pt-32 md:px-5">
+    
+<div class="absolute text-6xl text-[rgb(161,138,77)] left-2 ml-20 font-light">
   We are a <br> University of <br> Excellence!
 </div>
+<div class="w-[15%] relative "><img src="https://www.up.pt/portal/static/images/minerva_01.png" alt=""></div>
 <div class="text-[26.2px] pl-[5%]">
   <p class="font-light">
     With over 100 years of history, the University of Porto is a <span class="font-medium">leading </span><br> <span class="font-normal">teaching and scientific research institution in Portugal and worldwide.</span>
@@ -188,7 +190,7 @@
         main international rankings of Higher Education.</span>
       </p>
   </div>
-  <div class="ml-32">
+  <div class="ml-32 md:mt-40">
     <img src="https://www.up.pt/portal/media/images/investigar-home_destaque.format-jpeg.jpg" alt="">
   </div>
   </div>
@@ -269,6 +271,7 @@
 
 </section>
 <footer class="bg-[rgb(51,51,51)] text-white text-[14.4px] font-light " >
+  <div class="absolute -ml-[30%] w-[50%]"><img src="https://www.up.pt/portal/static/images/img_minerva_footer.png" alt=""></div>
   <section class="md:grid  md:grid-cols-5 px-32 gap-8 pt-20">
 
    <div class="text-[rgb(161,138,77)] hover:underline">Media</div>
